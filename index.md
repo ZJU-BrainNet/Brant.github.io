@@ -12,7 +12,9 @@ We propose a foundation model named BPT for modeling intracranial recordings, wh
 
 <center><font size="6"> Contributions </font><br/> </center>
 
-<img src="figures/scale_compare.png" alt="Model scale comparison" style="zoom:50%;" div align=center />
+<div align=center>
+<img src="figures/scale_compare.png" alt="Model scale comparison" style="zoom:50%;" />
+</div>
 
 - We propose a foundation model for intracranial neural signals named BPT, which is the largest model on brain signals (shown in the figure) and pre-trained on a large intracranial dataset collected by us, providing a large-scale and off-the-shelf model for medicine.
 
@@ -24,15 +26,17 @@ We propose a foundation model named BPT for modeling intracranial recordings, wh
 
 <center><font size="6"> Performance </font><br/> </center>
 
-<img src="figures/overall_res.png" alt="Overall performance of Brant and baselines" div align=center />
+<div align=center>
+<img src="figures/overall_res.png" alt="Overall performance of Brant and baselines" />
+</div>
 
 The figure above summarizes the results of all the downstream tasks. As a foundation model for intracranial recordings, BPT achieves consistent SOTA performance on a variety of tasks compared with other baseline models. 
 
 
 
-<center><font size="6"> Ethics Statement </font><br/> </center>
+<center><font size="6"> Limitations </font><br/> </center>
 
-The data collection and experiments conducted in our work have been approved by the Institutional Review Board (IRB) and passed ethical review. All participants have signed informed consent forms.
+By pre-training on a large amount of intracranial data, BPT contains over 500M parameters, far more than other existing works on brain signals. However, compared to other fields such as CV and NLP in which the models can reach billions of parameters and achieve good performance on a variety of tasks by zero-shot learning, there is still potential for further improvement of our work. In the future, by scaling up our dataset, the scale of our model can be further expanded to capture higher-level semantic information from neural data, revealing more complicated brain activities and dynamics, to provide assistance for more healthcare applications.
 
 
 
@@ -44,6 +48,10 @@ The data collection and experiments conducted in our work have been approved by 
 ```
 
 
+
+<center><font size="6"> Ethics Statement </font><br/> </center>
+
+The data collection and experiments conducted in our work have been approved by the Institutional Review Board (IRB) and passed ethical review. All participants have signed informed consent forms.
 
 
 
