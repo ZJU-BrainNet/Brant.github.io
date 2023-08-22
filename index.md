@@ -6,7 +6,7 @@ layout: default
 
 <center><font size="6"> Abstract </font><br/> </center>
 
-We propose a foundation model named BPT for modeling intracranial recordings, which learns powerful representations of intracranial neural signals by pre-training, providing a large-scale, off-the-shelf model for medicine. BPT is the largest model in the field of brain signals and is pre-trained on a large corpus of intracranial data collected by us. The design of BPT is to capture long-term temporal dependency and spatial correlation from neural signals, combining the information in both time and frequency domains. As a foundation model, BPT achieves SOTA performance on various downstream tasks (i.e. neural signal forecasting, frequency-phase forecasting, imputation and seizure detection), showing the generalization ability to a broad range of tasks. The low-resource label analysis and representation visualization further illustrate the effectiveness of our pre-training strategy. In addition, we explore the effect of model size to show that a larger model with a higher capacity can lead to performance improvements on our dataset. The source code and pre-trained weights are available at https://anonymous.4open.science/r/BPT-30AB.
+We propose a foundation model named BPT for modeling intracranial recordings, which learns powerful representations of intracranial neural signals by pre-training, providing a large-scale, off-the-shelf model for medicine. BPT is the largest model in the field of brain signals and is pre-trained on a large corpus of intracranial data collected by us. The design of BPT is to capture long-term temporal dependency and spatial correlation from neural signals, combining the information in both time and frequency domains. As a foundation model, BPT achieves SOTA performance on various downstream tasks (i.e. neural signal forecasting, frequency-phase forecasting, imputation and seizure detection), showing the generalization ability to a broad range of tasks. The low-resource label analysis and representation visualization further illustrate the effectiveness of our pre-training strategy. In addition, we explore the effect of model size to show that a larger model with a higher capacity can lead to performance improvements on our dataset. The source code and pre-trained weights are available at [here](https://anonymous.4open.science/r/BPT-30AB). 
 
 
 
@@ -19,6 +19,14 @@ We propose a foundation model named BPT for modeling intracranial recordings, wh
 - To our knowledge, BPT is the first to date that attends long-term dependency and captures spatial correlation across channels, while combining the information from both time and frequency domains.
 
 - Extensive experiments show that BPT generalizes well to various downstream tasks w.r.t. several medical scenarios, showing the great potential in neural recordings modeling. Further analysis illustrates the effectiveness of large-scale pre-trained model, demonstrating the medical value of our work.
+
+
+
+<center><font size="6"> Performance </font><br/> </center>
+
+<img src="figures/overall_res.png" alt="Overall performance of Brant and baselines" />
+
+The figure above summarizes the results of all the downstream tasks. As a foundation model for intracranial recordings, BPT achieves consistent SOTA performance on a variety of tasks compared with other baseline models. 
 
 
 
