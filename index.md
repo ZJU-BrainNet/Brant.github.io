@@ -12,7 +12,7 @@ We propose a foundation model named BPT for modeling intracranial recordings, wh
 
 <center><font size="6"> Contributions </font><br/> </center>
 
-<img src="figures/scale_compare.png" alt="Model scale comparison" style="zoom:50%;" />
+<img src="figures/scale_compare.png" alt="Model scale comparison" style="zoom:50%;" div align=center />
 
 - We propose a foundation model for intracranial neural signals named BPT, which is the largest model on brain signals (shown in the figure) and pre-trained on a large intracranial dataset collected by us, providing a large-scale and off-the-shelf model for medicine.
 
@@ -24,7 +24,7 @@ We propose a foundation model named BPT for modeling intracranial recordings, wh
 
 <center><font size="6"> Performance </font><br/> </center>
 
-<img src="figures/overall_res.png" alt="Overall performance of Brant and baselines" />
+<img src="figures/overall_res.png" alt="Overall performance of Brant and baselines" div align=center />
 
 The figure above summarizes the results of all the downstream tasks. As a foundation model for intracranial recordings, BPT achieves consistent SOTA performance on a variety of tasks compared with other baseline models. 
 
