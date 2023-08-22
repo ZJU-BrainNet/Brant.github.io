@@ -12,11 +12,32 @@ We propose a foundation model named BPT for modeling intracranial recordings, wh
 
 <center><font size="6"> Contributions </font><br/> </center>
 
-- We propose a foundation model for intracranial neural signals named BPT, which is the largest model on brain signals (shown in Fig. 1) and pre-trained on a large intracranial dataset collected by us, providing a large-scale and off-the-shelf model for medicine.
+<img src="figures/scale_compare.png" alt="Model scale comparison" style="zoom:50%;" />
+
+- We propose a foundation model for intracranial neural signals named BPT, which is the largest model on brain signals (shown in the figure) and pre-trained on a large intracranial dataset collected by us, providing a large-scale and off-the-shelf model for medicine.
 
 - To our knowledge, BPT is the first to date that attends long-term dependency and captures spatial correlation across channels, while combining the information from both time and frequency domains.
 
 - Extensive experiments show that BPT generalizes well to various downstream tasks w.r.t. several medical scenarios, showing the great potential in neural recordings modeling. Further analysis illustrates the effectiveness of large-scale pre-trained model, demonstrating the medical value of our work.
+
+
+
+<center><font size="6"> Ethics Statement </font><br/> </center>
+
+The data collection and experiments conducted in our work have been approved by the Institutional Review Board (IRB) and passed ethical review. All participants have signed informed consent forms.
+
+
+
+<center><font size="6"> BibTeX </font><br/> </center>
+
+```
+@article{
+}
+```
+
+
+
+
 
 
 
