@@ -4,15 +4,11 @@ layout: default
 
 <br>
 
-<br>
-
 <div align=center >
 <img src="figures/Platypus.jpeg" 
      alt="Platypus" 
      style="zoom:30%; border-radius:50%; overflow:hidden;" />
 </div>
-
-<br>
 
 <br>
 
