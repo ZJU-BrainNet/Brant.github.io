@@ -18,7 +18,7 @@ layout: default
 
 <center><font size="6"> Abstract </font><br/> </center>
 
-We propose a foundation model named BPT for modeling intracranial recordings, which learns powerful representations of intracranial neural signals by pre-training, providing a large-scale, off-the-shelf model for medicine. BPT is the largest model in the field of brain signals and is pre-trained on a large corpus of intracranial data collected by us. The design of BPT is to capture long-term temporal dependency and spatial correlation from neural signals, combining the information in both time and frequency domains. As a foundation model, BPT achieves SOTA performance on various downstream tasks (i.e. neural signal forecasting, frequency-phase forecasting, imputation and seizure detection), showing the generalization ability to a broad range of tasks. The low-resource label analysis and representation visualization further illustrate the effectiveness of our pre-training strategy. In addition, we explore the effect of model size to show that a larger model with a higher capacity can lead to performance improvements on our dataset. The source code and pre-trained weights are available at [here](https://anonymous.4open.science/r/BPT-30AB). 
+We propose a foundation model named Brant for modeling intracranial recordings, which learns powerful representations of intracranial neural signals by pre-training, providing a large-scale, off-the-shelf model for medicine. Brant is the largest model in the field of brain signals and is pre-trained on a large corpus of intracranial data collected by us. The design of Brant is to capture long-term temporal dependency and spatial correlation from neural signals, combining the information in both time and frequency domains. As a foundation model, Brant achieves SOTA performance on various downstream tasks (i.e. neural signal forecasting, frequency-phase forecasting, imputation and seizure detection), showing the generalization ability to a broad range of tasks. The low-resource label analysis and representation visualization further illustrate the effectiveness of our pre-training strategy. In addition, we explore the effect of model size to show that a larger model with a higher capacity can lead to performance improvements on our dataset. The source code and pre-trained weights are available at [here](https://anonymous.4open.science/r/BPT-30AB). 
 
 <br>
 
@@ -27,11 +27,11 @@ We propose a foundation model named BPT for modeling intracranial recordings, wh
 <center><font size="6"> Contributions </font><br/> </center>
 
 
-- We propose a foundation model for intracranial neural signals named BPT, which is the largest model on brain signals (shown in the figure below) and pre-trained on a large intracranial dataset collected by us, providing a large-scale and off-the-shelf model for medicine.
+- We propose a foundation model for intracranial neural signals named Brant, which is the largest model on brain signals (shown in the figure below) and pre-trained on a large intracranial dataset collected by us, providing a large-scale and off-the-shelf model for medicine.
 
-- To our knowledge, BPT is the first to date that attends long-term dependency and captures spatial correlation across channels, while combining the information from both time and frequency domains.
+- To our knowledge, Brant is the first to date that attends long-term dependency and captures spatial correlation across channels, while combining the information from both time and frequency domains.
 
-- Extensive experiments show that BPT generalizes well to various downstream tasks w.r.t. several medical scenarios, showing the great potential in neural recordings modeling. Further analysis illustrates the effectiveness of large-scale pre-trained model, demonstrating the medical value of our work.
+- Extensive experiments show that Brant generalizes well to various downstream tasks w.r.t. several medical scenarios, showing the great potential in neural recordings modeling. Further analysis illustrates the effectiveness of large-scale pre-trained model, demonstrating the medical value of our work.
 
 <div align=center>
 <img src="figures/scale_compare.png" alt="Model scale comparison" style="zoom:50%;" />
@@ -44,7 +44,7 @@ We propose a foundation model named BPT for modeling intracranial recordings, wh
 <center><font size="6"> Performance </font><br/> </center>
 
 
-The figure below summarizes the results of all the downstream tasks, including neural signal forecasting, frequency-phase forecasting, imputation and seizure detection. As a foundation model for intracranial recordings, BPT achieves consistent SOTA performance on a variety of tasks compared with other baseline models. 
+The figure below summarizes the results of all the downstream tasks, including neural signal forecasting, frequency-phase forecasting, imputation and seizure detection. As a foundation model for intracranial recordings, Brant achieves consistent SOTA performance on a variety of tasks compared with other baseline models. 
 
 <div align=center>
 <img src="figures/overall_res.png" alt="Overall performance of Brant and baselines" />
@@ -56,7 +56,7 @@ The figure below summarizes the results of all the downstream tasks, including n
 
 <center><font size="6"> Limitations </font><br/> </center>
 
-By pre-training on a large amount of intracranial data, BPT contains over 500M parameters, far more than other existing works on brain signals. However, compared to other fields such as CV and NLP in which the models can reach billions of parameters and achieve good performance on a variety of tasks by zero-shot learning, there is still potential for further improvement of our work. In the future, by scaling up our dataset, the scale of our model can be further expanded to capture higher-level semantic information from neural data, revealing more complicated brain activities and dynamics, to provide assistance for more healthcare applications.
+By pre-training on a large amount of intracranial data, Brant contains over 500M parameters, far more than other existing works on brain signals. However, compared to other fields such as CV and NLP in which the models can reach billions of parameters and achieve good performance on a variety of tasks by zero-shot learning, there is still potential for further improvement of our work. In the future, by scaling up our dataset, the scale of our model can be further expanded to capture higher-level semantic information from neural data, revealing more complicated brain activities and dynamics, to provide assistance for more healthcare applications.
 
 <br>
 
