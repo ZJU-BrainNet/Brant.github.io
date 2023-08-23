@@ -4,6 +4,28 @@ layout: default
 
 
 
+
+
+
+
+<style>  
+.rounded-image {  
+    border-radius: 50%;  
+}  
+</style>  
+<div class="rounded-image">  
+    ![Platypus](figures/Platypus.jpeg)  
+</div> 
+
+
+<div align=center style="border-radius:50%; overflow:hidden;" >
+<img src="figures/Platypus.jpeg" alt="Platypus" style="zoom:50%;" />
+</div>
+
+
+
+
+
 <center><font size="6"> Abstract </font><br/> </center>
 
 We propose a foundation model named BPT for modeling intracranial recordings, which learns powerful representations of intracranial neural signals by pre-training, providing a large-scale, off-the-shelf model for medicine. BPT is the largest model in the field of brain signals and is pre-trained on a large corpus of intracranial data collected by us. The design of BPT is to capture long-term temporal dependency and spatial correlation from neural signals, combining the information in both time and frequency domains. As a foundation model, BPT achieves SOTA performance on various downstream tasks (i.e. neural signal forecasting, frequency-phase forecasting, imputation and seizure detection), showing the generalization ability to a broad range of tasks. The low-resource label analysis and representation visualization further illustrate the effectiveness of our pre-training strategy. In addition, we explore the effect of model size to show that a larger model with a higher capacity can lead to performance improvements on our dataset. The source code and pre-trained weights are available at [here](https://anonymous.4open.science/r/BPT-30AB). 
