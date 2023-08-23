@@ -8,21 +8,11 @@ layout: default
 
 
 
-<style>  
-.rounded-image {  
-    border-radius: 50%;  
-}  
-</style>  
-<div class="rounded-image">  
-    ![Platypus](figures/Platypus.jpeg)  
-</div> 
-
-
-<div align=center style="border-radius:50%; overflow:hidden;" >
-<img src="figures/Platypus.jpeg" alt="Platypus" style="zoom:50%;" />
+<div align=center >
+<img src="figures/Platypus.jpeg" 
+     alt="Platypus" 
+     style="zoom:20%; border-radius:50%; overflow:hidden;" />
 </div>
-
-
 
 
 
