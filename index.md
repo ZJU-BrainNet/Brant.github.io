@@ -5,8 +5,8 @@ layout: default
 <br>
 
 <div align=center >
-<img src="figures/Platypus.jpeg" 
-     alt="Platypus" 
+<img src="figures/logo-05.png" 
+     alt="Logo" 
      style="zoom:30%; border-radius:50%; overflow:hidden;" />
 </div>
 
