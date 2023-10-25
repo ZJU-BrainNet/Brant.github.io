@@ -5,9 +5,12 @@ layout: default
 <br>
 
 <div align=center >
+<!-- <img src="figures/logo-05.png" 
+     alt="Logo" 
+     style="zoom:30%; border-radius:50%; overflow:hidden;" /> -->
 <img src="figures/logo-05.png" 
      alt="Logo" 
-     style="zoom:30%; border-radius:50%; overflow:hidden;" />
+     style="zoom:30%; overflow:hidden;" />
 </div>
 
 <br>
