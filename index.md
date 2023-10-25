@@ -4,14 +4,15 @@ layout: default
 
 <br>
 
-<div align=center >
-<!-- <img src="figures/logo-05.png" 
-     alt="Logo" 
-     style="zoom:30%; border-radius:50%; overflow:hidden;" /> -->
+<!-- <div align=center >
 <img src="figures/logo-05.png" 
      alt="Logo" 
-     style="zoom:30%; overflow:hidden;" />
-</div>
+     style="zoom:30%; border-radius:50%; overflow:hidden;" />
+</div> -->
+
+<div align=center>
+<img src="figures/logo-05.png" alt="Logo" style="zoom:30%;" />
+</div> 
 
 <br>
 
