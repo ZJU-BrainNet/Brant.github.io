@@ -11,7 +11,7 @@ layout: default
 </div> -->
 
 <div align=center>
-<img src="figures/logo-05.png" alt="Logo" style="zoom:30%;" />
+<img src="figures/logo-05.png" alt="Logo" style="zoom:5%;" />
 </div> 
 
 <br>
