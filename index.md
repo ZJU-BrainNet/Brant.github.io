@@ -19,22 +19,22 @@ layout: default
 
 <center><font size="6"> Abstract </font><br/> </center>
 
-We propose a foundation model named Brant for modeling intracranial recordings, which learns powerful representations of intracranial neural signals by pre-training, providing a large-scale, off-the-shelf model for medicine. Brant is the largest model in the field of brain signals and is pre-trained on a large corpus of intracranial data collected by us. The design of Brant is to capture long-term temporal dependency and spatial correlation from neural signals, combining the information in both time and frequency domains. As a foundation model, Brant achieves SOTA performance on various downstream tasks (i.e. neural signal forecasting, frequency-phase forecasting, imputation and seizure detection), showing the generalization ability to a broad range of tasks. The low-resource label analysis and representation visualization further illustrate the effectiveness of our pre-training strategy. In addition, we explore the effect of model size to show that a larger model with a higher capacity can lead to performance improvements on our dataset. The source code and pre-trained weights are available at: https://zju-brainnet.github.io/Brant.github.io/.
+Brant is a foundation model for modeling intracranial recordings, which learns powerful representations of intracranial neural signals by pre-training, as a large-scale, off-the-shelf model for medicine. 
+Brant is the largest model in the field of brain signals and is pre-trained on a large corpus of intracranial data. The design of Brant is to capture long-term temporal dependency and spatial correlation from neural signals, combining the information in both time and frequency domains. 
+
+<!-- As a foundation model, Brant achieves SOTA performance on various downstream tasks (i.e. neural signal forecasting, frequency-phase forecasting, imputation and seizure detection), showing the generalization ability to a broad range of tasks.  -->
 
 <br>
 
 <br>
 
-<center><font size="6"> Contributions </font><br/> </center>
+<center><font size="6"> Model Scale </font><br/> </center>
 
-- We propose a foundation model for intracranial neural signals named Brant, which is the largest model on brain signals (shown in the figure below) and pre-trained on a large intracranial dataset collected by us, providing a large-scale and off-the-shelf model for medicine.
-
-- To our knowledge, Brant is the first to date that attends long-term dependency and captures spatial correlation across channels, while combining the information from both time and frequency domains.
-
-- Extensive experiments show that Brant generalizes well to various downstream tasks w.r.t. several medical scenarios, showing the great potential in neural recordings modeling. Further analysis illustrates the effectiveness of large-scale pre-trained model, demonstrating the medical value of our work.
+Brant is the largest model on brain signals and pre-trained on a large intracranial dataset collected by us. 
+As shown in the figure below, Brant contains over 500M parameters, far more than other existing works on brain signals.
 
 <div align=center>
-<img src="figures/scale_compare.png" alt="Model scale comparison" style="zoom:50%;" />
+<img src="figures/scale_compare.png" alt="Model scale comparison" style="zoom:70%;" />
 </div> 
 
 <br>
@@ -43,8 +43,7 @@ We propose a foundation model named Brant for modeling intracranial recordings, 
 
 <center><font size="6"> Performance </font><br/> </center>
 
-
-The figure below summarizes the results of all the downstream tasks, including neural signal forecasting, frequency-phase forecasting, imputation and seizure detection. As a foundation model for intracranial recordings, Brant achieves consistent SOTA performance on a variety of tasks compared with other baseline models. 
+The figure below summarizes the results of all the downstream tasks, including neural signal forecasting, frequency-phase forecasting, imputation and seizure detection. As a foundation model for intracranial recordings, compared with other baselines, Brant achieves consistent SOTA performance on a variety of tasks w.r.t. several medical scenarios, showing the great potential in neural recordings modeling.
 
 <div align=center>
 <img src="figures/overall_res.png" alt="Overall performance of Brant and baselines" />
@@ -65,7 +64,11 @@ By pre-training on a large amount of intracranial data, Brant contains over 500M
 <center><font size="6"> BibTeX </font><br/> </center>
 
 ```
-@article{
+@article{zhang2022brant,
+  title={Brant: Foundation Model for Intracranial Neural Signal},
+  author={Zhang, Daoze and Yuan, Zhizhang and Yang, Yang and Wang, Jingjing and Chen, Junru and Li, Yafeng},
+  journal={Advances in Neural Information Processing Systems},
+  year={2023}
 }
 ```
 
