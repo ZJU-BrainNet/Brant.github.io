@@ -53,9 +53,9 @@ The figure below summarizes the results of all the downstream tasks, including n
 
 <br>
 
-<center><font size="6"> Limitations </font><br/> </center>
+<center><font size="6"> Future Works </font><br/> </center>
 
-By pre-training on a large amount of intracranial data, Brant contains over 500M parameters, far more than other existing works on brain signals. However, compared to other fields such as CV and NLP in which the models can reach billions of parameters and achieve good performance on a variety of tasks by zero-shot learning, there is still potential for further improvement of our work. In the future, by scaling up our dataset, the scale of our model can be further expanded to capture higher-level semantic information from neural data, revealing more complicated brain activities and dynamics, to provide assistance for more healthcare applications.
+In the future, by scaling up our dataset, the scale of our model can be further expanded to capture higher-level semantic information from neural data, revealing more complicated brain activities and dynamics, to provide assistance for more healthcare applications.
 
 <br>
 
