@@ -34,7 +34,7 @@ Brant is the largest model on brain signals and pre-trained on a large intracran
 As shown in the figure below, Brant contains over 500M parameters, far more than other existing works on brain signals.
 
 <div align=center>
-<img src="figures/scale_compare.png" alt="Model scale comparison" style="zoom:70%;" />
+<img src="figures/scale_compare.png" alt="Model scale comparison" style="zoom:75%;" />
 </div> 
 
 <br>
