@@ -64,10 +64,10 @@ In the future, by scaling up our dataset, the scale of our model can be further 
 <center><font size="6"> BibTeX </font><br/> </center>
 
 ```
-@article{zhang2023brant,
+@inproceedings{zhang2023brant,
   title={Brant: Foundation Model for Intracranial Neural Signal},
-  author={Zhang, Daoze and Yuan, Zhizhang and Yang, Yang and Wang, Jingjing and Chen, Junru and Li, Yafeng},
-  journal={Advances in Neural Information Processing Systems},
+  author={Zhang, Daoze and Yuan, Zhizhang and Yang, Yang and Chen, Junru and Wang, Jingjing and Li, Yafeng},
+  booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
   year={2023}
 }
 ```
